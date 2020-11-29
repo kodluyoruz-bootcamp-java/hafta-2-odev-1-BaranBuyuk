@@ -5,6 +5,6 @@ import org.kodluyoruz.example.intefaces.Share;
 public class FileShare implements Share {
     @Override
     public void share() {
-
+        System.out.println("File sharing...");
     }
 }
